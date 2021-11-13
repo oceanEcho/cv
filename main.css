@@ -124,6 +124,14 @@ a:hover {
   padding: 64px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 500px) {
   :root {
     --text-size-m: 16px;
