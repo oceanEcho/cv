@@ -7,25 +7,39 @@
     <title>I'm Ivan Zaytsev</title>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+      href="https://fonts.googleapis.com/css?family=Raleway"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header>
-      <ul>
-        <li><a href="https://github.com/oceanEcho">GitHub</a></li>
-        <li><a href="https://career.habr.com/hravan">Habr Career</a></li>
-        <li><a href="https://twitter.com/karlbransch">Twitter</a></li>
-        <li><a href="https://t.me/leerg">Telegram</a></li>
+    <header class="header">
+      <ul class="contacts">
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://github.com/oceanEcho"
+            >GitHub</a
+          >
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://twitter.com/karlbransch"
+            >Twitter</a
+          >
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://t.me/leerg">Telegram</a>
+        </li>
       </ul>
     </header>
-    <section>
-      <h1>Hi, I'm Ivan Zaytsev</h1>
-      <p>Front-end developer</p>
+    <section class="main-section">
+      <figure class="avatar">
+        <img src="assets/avatar.jpg" alt="Ivan Zaytsev" class="avatar__img" />
+      </figure>
+      <div>
+        <h1>Hi, I'm Ivan Zaytsev</h1>
+        <p class="position">Front-end developer</p>
+      </div>
     </section>
-    <section>
-      <h1>About</h1>
+    <section class="section">
+      <h2>About</h2>
       <p>
         An experienced front-end developer, I am well-versed in technologies and
         tools, I can choose a tool for the task. I solve business problems, but
@@ -36,8 +50,8 @@
         knowledge.
       </p>
     </section>
-    <section>
-      <h1>My stack</h1>
+    <section class="section">
+      <h2>Stack</h2>
       <ul>
         <li>JavaScript</li>
         <li>HTML/CSS</li>
