@@ -7,7 +7,7 @@
     <title>I'm Ivan Zaytsev</title>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Raleway"
+      href="https://fonts.googleapis.com/css?family=Raleway:300,500,400,600,700"
     />
     <link rel="stylesheet" href="main.css" />
   </head>
@@ -15,17 +15,25 @@
     <header class="header">
       <ul class="contacts">
         <li class="contacts__item">
-          <a class="contacts__link" href="https://github.com/oceanEcho"
+          <a
+            class="contacts__link"
+            title="GitHub"
+            href="https://github.com/oceanEcho"
             >GitHub</a
           >
         </li>
         <li class="contacts__item">
-          <a class="contacts__link" href="https://twitter.com/karlbransch"
+          <a
+            class="contacts__link"
+            title="Twitter"
+            href="https://twitter.com/karlbransch"
             >Twitter</a
           >
         </li>
         <li class="contacts__item">
-          <a class="contacts__link" href="https://t.me/leerg">Telegram</a>
+          <a class="contacts__link" title="Telegram" href="https://t.me/leerg"
+            >Telegram</a
+          >
         </li>
       </ul>
     </header>
@@ -34,7 +42,7 @@
         <img src="assets/avatar.jpg" alt="Ivan Zaytsev" class="avatar__img" />
       </figure>
       <div>
-        <h1>Hi, I'm Ivan Zaytsev</h1>
+        <h1>Hi, I'm<br />Ivan Zaytsev</h1>
         <p class="position">Front-end developer</p>
       </div>
     </section>
@@ -52,16 +60,52 @@
     </section>
     <section class="section">
       <h2>Stack</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>HTML/CSS</li>
-        <li>TypeScript</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>GraphQL</li>
-        <li>Webpack</li>
-        <li>Node.js</li>
+      <ul class="skills">
+        <li class="skills__item">JavaScript</li>
+        <li class="skills__item">HTML/CSS</li>
+        <li class="skills__item">TypeScript</li>
+        <li class="skills__item">React</li>
+        <li class="skills__item">Redux</li>
+        <li class="skills__item">GraphQL</li>
+        <li class="skills__item">Webpack</li>
+        <li class="skills__item">Node.js</li>
       </ul>
     </section>
+    <section class="section">
+      <h2>Work experience</h2>
+      <ul class="jobs">
+        <li class="job">
+          <a
+            href="https://dexsys.ru/"
+            title="DexSys – IT компания в Ижевске"
+            class="job__name"
+            >DexSys</a
+          >
+          <span class="job__position">Front-end developer</span>
+          <span class="job__period">October 2020 — current time</span>
+        </li>
+        <li class="job">
+          <a
+            href="https://itstep.org/"
+            title="Компьютерная Академии ШАГ | STEP IT Academy - itstep.org"
+            class="job__name"
+            >STEP IT Academy</a
+          >
+          <span class="job__position">Mentor</span>
+          <span class="job__period">May 2021 — October 2021</span>
+        </li>
+        <li class="job">
+          <a
+            href="https://www.epam.com/"
+            title="EPAM | Enterprise Software Development, Design & Consulting"
+            class="job__name"
+            >EPAM</a
+          >
+          <span class="job__position">Software engineer</span>
+          <span class="job__period">August 2019 — October 2020</span>
+        </li>
+      </ul>
+    </section>
+    <footer class="footer">made by Ivan Zaytsev</footer>
   </body>
 </html>
