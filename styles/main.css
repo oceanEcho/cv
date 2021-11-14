@@ -177,3 +177,9 @@
     width: 128px;
   }
 }
+
+@media print {
+  .header {
+    background: transparent;
+  }
+}
