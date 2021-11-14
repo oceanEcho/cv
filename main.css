@@ -101,6 +101,10 @@ a:hover {
   color: var(--color-text-secondary);
 }
 
+.contacts__link {
+  text-decoration: none;
+}
+
 .main-section {
   height: 100vh;
   display: flex;
